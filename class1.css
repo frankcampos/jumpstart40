@@ -1,0 +1,41 @@
+
+<style>
+<head>
+:root {
+    --tn-red: #CE1126;
+    --tn-white: #FFFFFF;
+    --tn-blue: #0038A8;
+  }
+
+  body {
+    background-color: var(--tn-white);
+    color: var(--tn-blue);
+  }
+
+  h1, h3 {
+    color: var(--tn-red);
+  }
+
+  .container {
+    border: 5px solid var(--tn-blue);
+    padding: 20px;
+  }
+
+  .links {
+    background-color: var(--tn-blue);
+    color: var(--tn-red);
+    border: 5px solid var(--tn-red);
+    padding: 20px;
+  }
+
+  .links li {
+    list-style: none;
+    margin: 10px;
+  }
+
+  .links li::before {
+    content: "\2605"; /* star unicode character */
+    margin-right: 10px;
+  }
+</style>
+</head>
